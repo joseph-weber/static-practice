@@ -1,9 +1,10 @@
+<% provide(:title, "Home") %>
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home | Ruby on Rails Tutorial Sample App</title>
+    <title><%= yield(:title) %></title>
   </head>
   <body>
-    <h1>About Page</h1>
+    <h1><%= yield(:title).upcase %> Page</h1>
   </body>
 </html>
