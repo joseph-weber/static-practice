@@ -1,4 +1,4 @@
-/*
+/* /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -15,7 +15,7 @@
  */
 
 
- nav {
+ /* nav {
      display: flex;
      width: 100%;
      justify-content: space-around;
@@ -52,7 +52,7 @@
  
  p {
      text-align: center;
- }
+ } */
 
 
  #avatar {
